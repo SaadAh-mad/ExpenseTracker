@@ -2,10 +2,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-image: url(image2.jpg);
-  background-size: cover; /* Makes the image cover the entire page */
-  background-repeat: repeat-y; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image */
-  height: 100vh; /* Ensures the body height is the full viewport height */
+  background-size: cover; 
+  background-repeat: repeat-y; 
+  background-position: center; 
+  height: 100vh; 
   margin: 0;
 }
 div.heading{
@@ -25,7 +25,7 @@ h2 { margin-left: 200px;
 }
 
 .input-section {
-  display: flex; /* Use flex here for better alignment */
+  display: flex; 
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -87,17 +87,17 @@ h2 { margin-left: 200px;
 .new-section {
   background-color: bisque;
   padding: 10px;
-  margin-bottom: 10px; /* Space between transactions */
+  margin-bottom: 10px; 
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 p.abc {
-  margin: 0; /* Remove default margin from paragraph */
+  margin: 0; 
   padding: 5px;
   font-size: 14px;
   display: flex;
-  flex-direction: column; /* Stack text vertically */
+  flex-direction: column; 
 }
 
 #amount {
